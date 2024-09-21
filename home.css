@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Points Section */
+.points {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.points-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.redeem-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.redeem-btn:hover {
+    background-color: #45a049;
+}
+
+/* Recent Donations Section */
+.recent-donations {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.donation-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #4CAF50;
+}
+
+/* Quick Action Button */
+.quick-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.add-donation-btn {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.add-donation-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Navigation Bar */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+    color: #4CAF50;
+}
